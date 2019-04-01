@@ -1,0 +1,6 @@
+Bundle "gregsexton/gitv"
+Bundle "mattn/gist-vim"
+Bundle "tpope/vim-fugitive"
+Bundle "tpope/vim-git"
+Bundle 'Xuyuanp/nerdtree-git-plugin'
+Bundle "airblade/vim-gitgutter"
