@@ -7,3 +7,4 @@
 :verbose: true
 gem: --no-document
 gem: --no-ri
+:ssl_verify_mode: 0

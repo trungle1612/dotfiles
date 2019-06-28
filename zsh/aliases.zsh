@@ -239,11 +239,16 @@ alias msql='mysql -uroot -proot'
 alias mux='tmuxinator'
 # Xtaypro
 alias xtay='cd; cd workspace/xtaypro'
+alias xtay_log='ssh xtay-dev tail -f /var/log/nginx/error.log'
 # cap
 alias stgdep='bundle exec cap staging deploy'
+# heroku xtay web
+alias stghrk='git push heroku develop:master'
 # run test xtaypro
 alias trunner='rails test test/runners/api/v1/payment_runners'
 alias tcontroller='rails test test/controllers/api/v1/transaction_payments_controller_test.rb'
 alias tmodel='rails test test/models/payment_test.rb'
 alias trepo='rails test test/repositories/payment_repository_test.rb'
 alias troutes='rails test test/routes/api/v1/transaction_payment_routes_test.rb'
+# voz
+alias voz='ruby ~/workspace/side_projects/voz.rb'
